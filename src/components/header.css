@@ -1,0 +1,49 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* background-color: aliceblue; */
+}
+
+.logo-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo-section > p {
+  font-size: 40px;
+  font-weight: 800;
+  color: #eee;
+  cursor: pointer;
+}
+
+.navbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+/* .contact-button {
+  display: flex;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button > button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  border: 2px solid #8e2de2;
+  background-color: transparent;
+  color: #8e2de2;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact-button > button:hover {
+  background-color: #8e2de2;
+  color: #eee;
+} */

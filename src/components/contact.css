@@ -1,0 +1,134 @@
+.contact {
+  margin-top: 100px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid #4a00e0; */
+}
+
+.con-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-header > h1 {
+  font-size: 40px;
+  color: #eee;
+  letter-spacing: 10px;
+}
+
+.con-header > p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #bebebe;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  column-gap: 120px;
+}
+
+.fill-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.fill-name > p {
+  font-size: 40px;
+  color: #eee;
+}
+
+.fill-name > input {
+  font-size: 25px;
+  color: #bebebe;
+  font-weight: lighter;
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #4a00e0;
+  padding-bottom: 20px;
+}
+
+.fill-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.fill-email > p {
+  font-size: 40px;
+  color: #eee;
+}
+
+.fill-email > input {
+  font-size: 25px;
+  color: #bebebe;
+  font-weight: lighter;
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #4a00e0;
+  padding-bottom: 20px;
+}
+
+.message-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-section > p {
+  font-size: 40px;
+  color: #eee;
+}
+
+.message-section > input {
+  width: 750px;
+  font-size: 25px;
+  color: #bebebe;
+  font-weight: lighter;
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #4a00e0;
+  padding-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.button-container > button {
+  width: 400px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 10px;
+  border-style: none;
+  border: 2px solid #4a00e0;
+  background-color: transparent;
+  color: #4a00e0;
+  cursor: pointer;
+}
+
+.button-container > button:hover {
+  background-color: #4a00e0;
+  color: #eee;
+}

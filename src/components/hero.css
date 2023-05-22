@@ -1,0 +1,154 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1264px;
+  height: 550px;
+  /* background-color: aliceblue; */
+}
+
+.hero-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 740px;
+  height: 540px;
+  /* background-color: rgb(40, 40, 39); */
+}
+
+.hero-1 > h1 {
+  font-size: 50px;
+  color: #eee;
+}
+
+.hero-1 > h1 > span {
+  background: linear-gradient(to right, #ffbf00 50%, #fbff00 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-2 > p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #bebebe;
+  font-weight: 100;
+}
+
+.hero-3 {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 40px;
+}
+
+.hero-3 > button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button-1 {
+  background-color: #4a00e0;
+  color: #eee;
+  border-style: none;
+}
+.button-1 > a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.button-2 {
+  border: 2px solid #4a00e0;
+  background-color: transparent;
+  color: #4a00e0;
+}
+
+.button-2:hover {
+  background-color: #4a00e0;
+  color: #eee;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 500px;
+  height: 540px;
+  /* background-color: rgb(134, 134, 47); */
+}
+
+.astro-img {
+  width: 500px;
+  height: 400px;
+  /* background-color: rgb(227, 227, 29); */
+}
+
+.astro-img > img {
+  width: 400px;
+  height: 400px;
+}
+
+.astro-img > img:hover {
+  transform: rotateY(90);
+}
+
+.social-link {
+  display: flex;
+  column-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  /* background-color: rgb(104, 104, 10); */
+}
+
+.social-link > p {
+  color: #eee;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.social-box {
+  display: flex;
+  column-gap: 20px;
+}
+
+a > .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #4a00e0;
+  color: #eee;
+  cursor: pointer;
+}
+
+a > .icons:hover {
+  background-color: #eee;
+  color: #4a00e0;
+}
+
+/* .social-link > .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #4a00e0;
+  color: #eee;
+  cursor: pointer;
+}
+
+.social-link > .icons:hover {
+  background-color: #eee;
+  color: #4a00e0;
+} */

@@ -1,0 +1,41 @@
+.project {
+  margin-top: 100px;
+}
+
+.project-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid #4a00e0; */
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.project-title > h1 {
+  font-size: 50px;
+  color: #eee;
+  /* border: 2px solid #4a00e0; */
+}
+
+.project-title > p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #bebebe;
+  font-weight: 100;
+  /* border: 2px solid #4a00e0; */
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.project-img > img {
+  width: 200px;
+  height: 200px;
+}

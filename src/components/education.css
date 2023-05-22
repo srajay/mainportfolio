@@ -1,0 +1,84 @@
+.education {
+  margin-top: 100px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid #4a00e0; */
+}
+
+.edu-part {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  justify-content: center;
+  width: 610px;
+  height: 550px;
+  border-radius: 20px;
+  border: 2px solid #4a00e0;
+  /* background-color: #4a00e0; */
+}
+
+.edu-part > div {
+  margin-left: 20px;
+}
+
+.edu-part > div > h1 {
+  color: #eee;
+  letter-spacing: 10px;
+}
+
+.edu-part > div > h1 > span {
+  margin-left: 20px;
+  color: #ff8c00;
+}
+
+.edu-part > div > h2 {
+  color: #eee;
+}
+
+.edu-part > div > p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #bebebe;
+  font-weight: 100;
+}
+
+.exp-part {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  justify-content: center;
+  margin-left: 20px;
+  width: 625px;
+  height: 550px;
+  border-radius: 20px;
+  border: 2px solid #4a00e0;
+}
+
+.exp-part > div {
+  margin-left: 20px;
+}
+
+.exp-part > div > h1 {
+  color: #eee;
+  letter-spacing: 10px;
+}
+
+.exp-part > div > h1 > span {
+  margin-left: 20px;
+  color: #ff8c00;
+}
+
+.exp-part > div > h2 {
+  color: #eee;
+}
+
+.exp-part > div > p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #bebebe;
+  font-weight: 100;
+}
